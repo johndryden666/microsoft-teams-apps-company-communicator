@@ -470,7 +470,7 @@ class NewMessage extends React.Component<INewMessageProps, formState> {
                                                 {
                                                     name: "allUsers",
                                                     key: "allUsers",
-                                                    disable: true,
+                                                    disabled: true,
                                                     value: "allUsers",
                                                     label: this.localize("SendToAllUsers"),
                                                     children: (Component, { name, ...props }) => {
